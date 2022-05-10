@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(32, 49, 54);
+}
+.merkez{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    margin: -8px 0px;
+    float: left;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 40px 100px;
+    float: right;
+    font-size: 20px;
+}
+.orta{
+    width: 35%;
+    height: 100%;
+    position: relative;
+    top: 200px;
+    left: 650px;
+}
+.yazı1{
+    color: white;
+    font-size: 50px;
+    float: left;
+    position: relative;
+    top: -100px;
+    left: 230px;
+}
+.yazı2{
+    color: yellow;
+    font-size: 50px;
+    float: left;
+    position: relative;
+    top: -100px;
+    left: 240px;
+}
+.orta2{
+    background-color: white;
+    width: 30%;
+    height: 600px;
+    position: relative;
+    top: 250px;
+    left: -150px;
+    float: left;
+}
+.yuvar1{
+    border-radius: 100%;
+    background-color: yellow;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 250px;
+}
+.orta3{
+    background-color: white;
+    width: 30%;
+    height: 600px;
+    position: relative;
+    top: 250px;
+    left: -100px;
+    float: left;
+}
+.yuvar2{
+    border-radius: 100%;
+    background-color: yellow;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 250px;
+}
+.orta4{
+    background-color: white;
+    width: 29%;
+    height: 600px;
+    position: relative;
+    top: 250px;
+    left: -40px;
+    float: left;
+}
+.yuvar3{
+    border-radius: 100%;
+    background-color: yellow;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 250px;
+}
+.gizli li{display: none;}
+.gizli:focus li{
+    position: relative;
+    background-color: white;
+    color:black;
+}
+.gizli:focus li{
+    position: absolute;
+    display: block;
+    top: 70px;
+    left: 610px;
+    padding: 5px;
+    background-color: white;
+    width: 200px;
+    border: 1px solid black;
+}
